@@ -1,15 +1,16 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "iamabot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "classboysmc.aternos.me",
+    "port": 58860,
     "version": "",
-    "try-creative": false
+    "try-creative": true 
+
   },
   "position": {
     "enabled": true,
@@ -29,11 +30,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 100000,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I'm a dog",
+        "HII!",
+        "I like burger!"
       ]
     },
     "chat-log": true,
@@ -43,7 +44,7 @@
   },
   "movement": {
     "enabled": true,
-    "circle-walk": {
+    "randomly": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
